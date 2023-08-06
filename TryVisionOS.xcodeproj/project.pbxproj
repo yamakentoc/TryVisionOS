@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		150237382A5AE29B001DD002 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150237372A5AE29B001DD002 /* ViewModel.swift */; };
+		1502373B2A5AE2EF001DD002 /* Model3DScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1502373A2A5AE2EF001DD002 /* Model3DScene.swift */; };
+		154CCCC52A5B096200EBEFF3 /* VolumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154CCCC42A5B096200EBEFF3 /* VolumeView.swift */; };
+		154CCCC72A5ED63D00EBEFF3 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154CCCC62A5ED63D00EBEFF3 /* ImmersiveView.swift */; };
+		1565B2572A5AC08300CFB3E0 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 1565B2562A5AC08300CFB3E0 /* RealityKitContent */; };
+		1565B2592A5AC08300CFB3E0 /* TryVisionOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1565B2582A5AC08300CFB3E0 /* TryVisionOSApp.swift */; };
+		1565B25B2A5AC08300CFB3E0 /* Model3DListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1565B25A2A5AC08300CFB3E0 /* Model3DListView.swift */; };
+		1565B25D2A5AC08500CFB3E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1565B25C2A5AC08500CFB3E0 /* Assets.xcassets */; };
+		1565B2602A5AC08500CFB3E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1565B25F2A5AC08500CFB3E0 /* Preview Assets.xcassets */; };
+		1565B2672A5AC45100CFB3E0 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1565B2662A5AC45100CFB3E0 /* SecondView.swift */; };
+		15EDD37E2A702D3F009DAC80 /* ImageBasedLight.exr in Resources */ = {isa = PBXBuildFile; fileRef = 15EDD37D2A702A5D009DAC80 /* ImageBasedLight.exr */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		150237372A5AE29B001DD002 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		1502373A2A5AE2EF001DD002 /* Model3DScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model3DScene.swift; sourceTree = "<group>"; };
+		154CCCC42A5B096200EBEFF3 /* VolumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeView.swift; sourceTree = "<group>"; };
+		154CCCC62A5ED63D00EBEFF3 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		155374C72A5ACB9300FF8488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1565B2512A5AC08300CFB3E0 /* TryVisionOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryVisionOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1565B2552A5AC08300CFB3E0 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		1565B2582A5AC08300CFB3E0 /* TryVisionOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryVisionOSApp.swift; sourceTree = "<group>"; };
+		1565B25A2A5AC08300CFB3E0 /* Model3DListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model3DListView.swift; sourceTree = "<group>"; };
+		1565B25C2A5AC08500CFB3E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1565B25F2A5AC08500CFB3E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1565B2662A5AC45100CFB3E0 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		15EDD37D2A702A5D009DAC80 /* ImageBasedLight.exr */ = {isa = PBXFileReference; lastKnownFileType = file; path = ImageBasedLight.exr; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1565B24E2A5AC08300CFB3E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1565B2572A5AC08300CFB3E0 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		150237392A5AE2DF001DD002 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+				150237372A5AE29B001DD002 /* ViewModel.swift */,
+				1502373A2A5AE2EF001DD002 /* Model3DScene.swift */,
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		1565B2482A5AC08300CFB3E0 = {
+			isa = PBXGroup;
+			children = (
+				1565B2532A5AC08300CFB3E0 /* TryVisionOS */,
+				1565B2542A5AC08300CFB3E0 /* Packages */,
+				1565B2522A5AC08300CFB3E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1565B2522A5AC08300CFB3E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1565B2512A5AC08300CFB3E0 /* TryVisionOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1565B2532A5AC08300CFB3E0 /* TryVisionOS */ = {
+			isa = PBXGroup;
+			children = (
+				155374C72A5ACB9300FF8488 /* Info.plist */,
+				1565B2582A5AC08300CFB3E0 /* TryVisionOSApp.swift */,
+				1565B25A2A5AC08300CFB3E0 /* Model3DListView.swift */,
+				154CCCC62A5ED63D00EBEFF3 /* ImmersiveView.swift */,
+				154CCCC42A5B096200EBEFF3 /* VolumeView.swift */,
+				1565B2662A5AC45100CFB3E0 /* SecondView.swift */,
+				150237392A5AE2DF001DD002 /* Mode */,
+				1565B25C2A5AC08500CFB3E0 /* Assets.xcassets */,
+				15EDD37D2A702A5D009DAC80 /* ImageBasedLight.exr */,
+				1565B25E2A5AC08500CFB3E0 /* Preview Content */,
+			);
+			path = TryVisionOS;
+			sourceTree = "<group>";
+		};
+		1565B2542A5AC08300CFB3E0 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				1565B2552A5AC08300CFB3E0 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		1565B25E2A5AC08500CFB3E0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1565B25F2A5AC08500CFB3E0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1565B2502A5AC08300CFB3E0 /* TryVisionOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1565B2632A5AC08500CFB3E0 /* Build configuration list for PBXNativeTarget "TryVisionOS" */;
+			buildPhases = (
+				1565B24D2A5AC08300CFB3E0 /* Sources */,
+				1565B24E2A5AC08300CFB3E0 /* Frameworks */,
+				1565B24F2A5AC08300CFB3E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TryVisionOS;
+			packageProductDependencies = (
+				1565B2562A5AC08300CFB3E0 /* RealityKitContent */,
+			);
+			productName = TryVisionOS;
+			productReference = 1565B2512A5AC08300CFB3E0 /* TryVisionOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1565B2492A5AC08300CFB3E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1565B2502A5AC08300CFB3E0 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 1565B24C2A5AC08300CFB3E0 /* Build configuration list for PBXProject "TryVisionOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1565B2482A5AC08300CFB3E0;
+			productRefGroup = 1565B2522A5AC08300CFB3E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1565B2502A5AC08300CFB3E0 /* TryVisionOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1565B24F2A5AC08300CFB3E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1565B2602A5AC08500CFB3E0 /* Preview Assets.xcassets in Resources */,
+				15EDD37E2A702D3F009DAC80 /* ImageBasedLight.exr in Resources */,
+				1565B25D2A5AC08500CFB3E0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1565B24D2A5AC08300CFB3E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1565B2672A5AC45100CFB3E0 /* SecondView.swift in Sources */,
+				154CCCC52A5B096200EBEFF3 /* VolumeView.swift in Sources */,
+				1565B25B2A5AC08300CFB3E0 /* Model3DListView.swift in Sources */,
+				154CCCC72A5ED63D00EBEFF3 /* ImmersiveView.swift in Sources */,
+				150237382A5AE29B001DD002 /* ViewModel.swift in Sources */,
+				1502373B2A5AE2EF001DD002 /* Model3DScene.swift in Sources */,
+				1565B2592A5AC08300CFB3E0 /* TryVisionOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1565B2612A5AC08500CFB3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		1565B2622A5AC08500CFB3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		1565B2642A5AC08500CFB3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TryVisionOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 65VW7XZNV5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TryVisionOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamakentoc.TryVisionOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		1565B2652A5AC08500CFB3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TryVisionOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 65VW7XZNV5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TryVisionOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamakentoc.TryVisionOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1565B24C2A5AC08300CFB3E0 /* Build configuration list for PBXProject "TryVisionOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1565B2612A5AC08500CFB3E0 /* Debug */,
+				1565B2622A5AC08500CFB3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1565B2632A5AC08500CFB3E0 /* Build configuration list for PBXNativeTarget "TryVisionOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1565B2642A5AC08500CFB3E0 /* Debug */,
+				1565B2652A5AC08500CFB3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1565B2562A5AC08300CFB3E0 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1565B2492A5AC08300CFB3E0 /* Project object */;
+}
