@@ -14,7 +14,7 @@ struct VolumeView: View {
     @Environment(ViewModel.self) private var model
     
     var body: some View {
-        ZStack(alignment: .bottom) {
+        ZStack {
             RealityView { content in
                 if let scene = try? await Entity(named: model.selectedModel3DScene.sceneName, in: realityKitContentBundle) {
                     content.add(scene)
